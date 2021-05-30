@@ -1,0 +1,15 @@
+/*
+ * https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html
+ */
+{
+  "compilerOptions": {
+    "outDir": "./out",
+    "allowJs": true,
+    "target": "es5",
+    "lib": ["es2015", "dom"]
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": ["./src/**/*.test.ts", "./src/**/*.spec.ts"]
+}
